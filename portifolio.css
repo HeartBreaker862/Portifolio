@@ -45,7 +45,7 @@ nav {
     backdrop-filter: blur(2px);
     box-shadow: 0px 0px 10px;
 }
-
+  
 
 .circuloverd {
     border-radius: 50%;
@@ -243,5 +243,180 @@ body {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .circuloverd,
+    .circulover,
+    .circuloa {
+      display: none;
+    }
 
+    body {
+        background-color: #0B0B0B;
+        color: var(--branco);
+        overflow-x: hidden;
+    }
+
+    nav {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        font-size: 40px;
+        padding: 2vw;
+        background-color: #161616;
+        border-radius: 10px;
+        border: solid 2px rgb(52, 52, 52);
+        box-shadow: 0px 0px 10px;
+    }
+
+    .desen {
+        font-family: var(--fonte_primaria);
+        font-size: 25px;
+    }
+    
+    .ini {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: row;
+        height: 200px;
+        margin-left: 20px;
+    }
+    
+    .textde {
+        font-size: 15px;
+        width: 200px;
+        height: 200px;
+        margin-left: 5px;
+        padding: 0px;
+        
+        font-family: var(--fonte_secundaria);
+    }
+    
+    .img {
+        margin-top: 300px;
+        margin-right: 15px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        width: 120px;
+        height: 160px;
+        box-shadow: 0px 0px 32.5px 11px rgba(69, 23, 0, 1);
+    }
+    
+    .cria {
+        font-family: var(--fonte_primaria);
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .meio {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 100px;
+    }
+    
+    .textin {
+        font-family: var(--fonte_secundaria);
+        position: absolute;
+        text-align: center;
+        right: 20px;
+        top: 650px;
+        width: 200px;
+        height: 300px;
+        font-size: 16px;
+    }
+    
+    .img2 {
+        display: flex;
+        margin-top: 400px;
+        margin-right: 200px;
+        justify-content: center;
+        width: 150px;
+    }
+    
+    .shab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 300px;
+    }
+    
+    .habtit {
+        font-family: var(--fonte_primaria);
+        font-size: 30px;
+    }
+    
+    .lista {
+        font-family: var(--fonte_secundaria);
+        margin-left: 2px;
+        font-size: 20px;
+    }
+    
+    .prop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .proptit {
+        font-family: var(--fonte_primaria);
+        font-size: 30px;
+    }
+    
+    .proptex {
+        font-family: var(--fonte_secundaria);
+        height: 200px;
+        width: 400px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .contato-bloco {
+        background: #1f1f1f;
+        color: var(--branco);
+        font-family: "Antic", serif;
+        font-size: 20px;
+        border-radius: 51px;
+        height: 65.1px;
+        width: 200px;
+        align-items: center;
+        text-align: center;
+        box-shadow: 1px 1px 45.5px 7px rgba(255, 255, 255, 0.25);
+    }
+    
+    .contato-bloco:hover{
+        background: #aaaaaa;
+        color: var(--branco);
+        font-family: var(--fonte_secundaria);
+        font-size: 20px;
+        border-radius: 51px;
+        height: 65.1px;
+        width: 200px;
+        align-items: center;
+        text-align: center;
+        box-shadow: 1px 1px 45.5px 7px rgba(255, 255, 255, 0.25);
+        transition: 0.7s;
+        cursor: pointer;
+    }
+    
+    .fin {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 700px;
+    }
+    
+    .text {
+        font-family: var(--fonte_secundaria);
+        font-size: 20px;
+        text-align: center;
+    }
+}
   
